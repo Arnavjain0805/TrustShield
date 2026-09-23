@@ -1,0 +1,25 @@
+======================================
+      DEFENSE EVALUATION SUMMARY      
+======================================
+Total Test Cases: 100
+ - Clean: 40
+ - Suspicious: 30
+ - Malicious: 30
+
+--- BASELINE METRICS ---
+Accuracy: 40.00%
+False Accept Rate (FAR): 70.00%
+False Reject Rate (FRR): 0.00%
+Attack Detection Rate (ADR): 30.00%
+Attack Success Rate (ASR): 70.00%
+Decision Counts: {'ALLOW': 61, 'MFA': 9, 'BLOCK': 30}
+
+--- DEFENDED METRICS ---
+Accuracy: 100.00%
+False Accept Rate (FAR): 0.00%
+False Reject Rate (FRR): 0.00%
+Attack Detection Rate (ADR): 100.00%
+Attack Success Rate (ASR): 0.00%
+Decision Counts: {'ALLOW': 40, 'MFA': 30, 'BLOCK': 30}
+
+* Note: Attack Success Rate (ASR) measures synthetic-input success, not resistance to all real-world attacks.

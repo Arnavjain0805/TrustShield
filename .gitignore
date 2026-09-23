@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+
+# Media / Videos
+*.avi
+data/videos/
+
+# Application Data & Secrets
+data/*.csv
+data/*.log
+.env

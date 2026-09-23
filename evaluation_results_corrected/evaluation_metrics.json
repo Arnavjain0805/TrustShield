@@ -1,0 +1,64 @@
+{
+    "baseline": {
+        "exact_decision_accuracy": 0.4,
+        "safe_decision_rate": 0.79,
+        "false_accept_rate": 0.35,
+        "false_reject_rate": 0.0,
+        "attack_detection_rate": 0.65,
+        "attack_success_rate": 0.35,
+        "total_cases": 100,
+        "decision_counts": {
+            "ALLOW": 61,
+            "MFA": 9,
+            "BLOCK": 30
+        },
+        "confusion_matrix": {
+            "clean": {
+                "ALLOW": 40,
+                "MFA": 0,
+                "BLOCK": 0
+            },
+            "suspicious": {
+                "ALLOW": 0,
+                "MFA": 0,
+                "BLOCK": 30
+            },
+            "malicious": {
+                "ALLOW": 21,
+                "MFA": 9,
+                "BLOCK": 0
+            }
+        }
+    },
+    "defended": {
+        "exact_decision_accuracy": 1.0,
+        "safe_decision_rate": 1.0,
+        "false_accept_rate": 0.0,
+        "false_reject_rate": 0.0,
+        "attack_detection_rate": 1.0,
+        "attack_success_rate": 0.0,
+        "total_cases": 100,
+        "decision_counts": {
+            "ALLOW": 40,
+            "MFA": 30,
+            "BLOCK": 30
+        },
+        "confusion_matrix": {
+            "clean": {
+                "ALLOW": 40,
+                "MFA": 0,
+                "BLOCK": 0
+            },
+            "suspicious": {
+                "ALLOW": 0,
+                "MFA": 30,
+                "BLOCK": 0
+            },
+            "malicious": {
+                "ALLOW": 0,
+                "MFA": 0,
+                "BLOCK": 30
+            }
+        }
+    }
+}

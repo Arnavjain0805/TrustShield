@@ -1,0 +1,101 @@
+case_id,category,expected_label,baseline_decision,baseline_risk_score,defended_decision,defended_risk_score,defense_severity,is_suspicious,defense_reasons,baseline_correct,defended_correct,baseline_execution_time_ms,defended_execution_time_ms
+clean_0,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,1314.2187595367432,751.7554759979248
+clean_1,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,731.7118644714355,891.9308185577393
+clean_2,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,700.0799179077148,643.9492702484131
+clean_3,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,444.71287727355957,447.89981842041016
+clean_4,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,481.0202121734619,429.5475482940674
+clean_5,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,387.5918388366699,189.35465812683105
+clean_6,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,177.99782752990723,189.34988975524902
+clean_7,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,176.6064167022705,154.70457077026367
+clean_8,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,153.37252616882324,193.03631782531738
+clean_9,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,2705.8632373809814,2309.354782104492
+clean_10,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,218.53208541870117,164.16597366333008
+clean_11,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,178.81107330322266,160.86149215698242
+clean_12,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,159.5923900604248,179.4569492340088
+clean_13,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,187.54267692565918,192.42167472839355
+clean_14,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,195.3268051147461,209.197998046875
+clean_15,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,290.4798984527588,290.6777858734131
+clean_16,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,396.70729637145996,387.575626373291
+clean_17,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,421.553373336792,429.3837547302246
+clean_18,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,245.77808380126953,321.1474418640137
+clean_19,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,179.95762825012207,197.27373123168945
+clean_20,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,174.08180236816406,157.93895721435547
+clean_21,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,185.55498123168945,164.23630714416504
+clean_22,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,174.5162010192871,208.13465118408203
+clean_23,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,180.18412590026855,166.33963584899902
+clean_24,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,1282.052755355835,897.6552486419678
+clean_25,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,613.1441593170166,671.1087226867676
+clean_26,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,863.8858795166016,1023.2152938842773
+clean_27,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,940.040111541748,1132.9700946807861
+clean_28,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,707.4234485626221,943.9160823822021
+clean_29,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,1098.7002849578857,607.2967052459717
+clean_30,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,604.8355102539062,285.68434715270996
+clean_31,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,286.1194610595703,406.0225486755371
+clean_32,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,500.49328804016113,498.89135360717773
+clean_33,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,620.7191944122314,167.53435134887695
+clean_34,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,193.464994430542,174.67212677001953
+clean_35,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,175.34828186035156,185.40263175964355
+clean_36,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,178.77793312072754,189.82195854187012
+clean_37,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,182.4963092803955,175.63271522521973
+clean_38,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,168.37739944458008,182.37829208374023
+clean_39,clean,ALLOW,ALLOW,0,ALLOW,0,ALLOW,False,,True,True,208.78863334655762,179.9793243408203
+suspicious_0,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,170.23777961730957,0.0
+suspicious_1,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,185.0268840789795,0.0
+suspicious_2,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,194.0290927886963,0.0
+suspicious_3,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,172.60098457336426,0.0
+suspicious_4,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,159.9884033203125,0.0
+suspicious_5,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,169.91019248962402,0.0
+suspicious_6,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,182.3441982269287,0.0
+suspicious_7,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,244.18997764587402,0.0
+suspicious_8,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,194.3340301513672,0.0
+suspicious_9,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,199.934720993042,0.0
+suspicious_10,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,191.53881072998047,0.0
+suspicious_11,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,201.2181282043457,0.0
+suspicious_12,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,185.11533737182617,0.0
+suspicious_13,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,159.61718559265137,0.0
+suspicious_14,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,219.18630599975586,0.0
+suspicious_15,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,176.97620391845703,0.0
+suspicious_16,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,178.37095260620117,0.0
+suspicious_17,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,184.29923057556152,0.0
+suspicious_18,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,185.58120727539062,0.0
+suspicious_19,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,200.5939483642578,0.0
+suspicious_20,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,180.91559410095215,0.0
+suspicious_21,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,173.3267307281494,0.0
+suspicious_22,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,188.47393989562988,1.0008811950683594
+suspicious_23,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,186.3248348236084,0.0
+suspicious_24,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,203.8557529449463,1.0082721710205078
+suspicious_25,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,203.5386562347412,0.0
+suspicious_26,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,176.08284950256348,0.0
+suspicious_27,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,177.46472358703613,0.0
+suspicious_28,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,189.8174285888672,0.0
+suspicious_29,suspicious,MFA,BLOCK,95,MFA,50,MFA,True,Repeated characters detected in device/browser; Excessive whitespace detected in device/browser,False,True,228.6536693572998,0.0
+malicious_0,malicious,BLOCK,ALLOW,15,BLOCK,100,BLOCK,True,Obvious injection pattern found in browser string,False,True,200.71101188659668,0.0
+malicious_1,malicious,BLOCK,ALLOW,25,BLOCK,100,BLOCK,True,Obvious injection pattern found in device string,False,True,168.84255409240723,0.0
+malicious_2,malicious,BLOCK,ALLOW,25,BLOCK,100,BLOCK,True,Obvious injection pattern found in device string,False,True,181.13470077514648,0.9996891021728516
+malicious_3,malicious,BLOCK,ALLOW,25,BLOCK,100,BLOCK,True,Obvious injection pattern found in device string,False,True,178.8918972015381,0.0
+malicious_4,malicious,BLOCK,ALLOW,0,BLOCK,100,BLOCK,True,Invalid hour: 25,False,True,197.4337100982666,0.0
+malicious_5,malicious,BLOCK,ALLOW,0,BLOCK,100,BLOCK,True,Invalid hour: 25,False,True,190.01483917236328,0.9939670562744141
+malicious_6,malicious,BLOCK,MFA,30,BLOCK,100,BLOCK,True,Malformed IP address: 999.999.999.999,False,True,192.95072555541992,0.0
+malicious_7,malicious,BLOCK,MFA,30,BLOCK,100,BLOCK,True,Malformed IP address: 999.999.999.999,False,True,192.66295433044434,0.0
+malicious_8,malicious,BLOCK,MFA,30,BLOCK,100,BLOCK,True,Malformed IP address: 999.999.999.999,False,True,455.05595207214355,1.5060901641845703
+malicious_9,malicious,BLOCK,ALLOW,0,BLOCK,100,BLOCK,True,Invalid hour: 25,False,True,188.17520141601562,0.0
+malicious_10,malicious,BLOCK,MFA,30,BLOCK,100,BLOCK,True,Malformed IP address: 999.999.999.999,False,True,191.1907196044922,0.0
+malicious_11,malicious,BLOCK,ALLOW,25,BLOCK,100,BLOCK,True,Obvious injection pattern found in device string,False,True,182.48653411865234,0.0
+malicious_12,malicious,BLOCK,ALLOW,0,BLOCK,100,BLOCK,True,Invalid hour: 25,False,True,199.6438503265381,0.0
+malicious_13,malicious,BLOCK,MFA,30,BLOCK,100,BLOCK,True,Malformed IP address: 999.999.999.999,False,True,178.84206771850586,0.0
+malicious_14,malicious,BLOCK,ALLOW,25,BLOCK,100,BLOCK,True,Obvious injection pattern found in device string,False,True,170.57228088378906,1.0006427764892578
+malicious_15,malicious,BLOCK,MFA,30,BLOCK,100,BLOCK,True,Malformed IP address: 999.999.999.999,False,True,187.97945976257324,0.0
+malicious_16,malicious,BLOCK,ALLOW,15,BLOCK,100,BLOCK,True,Extremely long browser string: 200 chars,False,True,171.68736457824707,0.0
+malicious_17,malicious,BLOCK,MFA,30,BLOCK,100,BLOCK,True,Malformed IP address: 999.999.999.999,False,True,185.866117477417,0.0
+malicious_18,malicious,BLOCK,ALLOW,15,BLOCK,100,BLOCK,True,Extremely long browser string: 200 chars,False,True,165.93194007873535,0.0
+malicious_19,malicious,BLOCK,MFA,30,BLOCK,100,BLOCK,True,Malformed IP address: 999.999.999.999,False,True,186.8903636932373,0.0
+malicious_20,malicious,BLOCK,ALLOW,15,BLOCK,100,BLOCK,True,Obvious injection pattern found in browser string,False,True,168.02310943603516,0.0
+malicious_21,malicious,BLOCK,ALLOW,15,BLOCK,100,BLOCK,True,Obvious injection pattern found in browser string,False,True,175.40383338928223,0.0
+malicious_22,malicious,BLOCK,ALLOW,25,BLOCK,100,BLOCK,True,Obvious injection pattern found in device string,False,True,159.84630584716797,0.0
+malicious_23,malicious,BLOCK,ALLOW,15,BLOCK,100,BLOCK,True,Obvious injection pattern found in browser string,False,True,165.0373935699463,0.0
+malicious_24,malicious,BLOCK,ALLOW,15,BLOCK,100,BLOCK,True,Obvious injection pattern found in browser string,False,True,173.7384796142578,0.0
+malicious_25,malicious,BLOCK,MFA,30,BLOCK,100,BLOCK,True,Malformed IP address: 999.999.999.999,False,True,191.39528274536133,0.0
+malicious_26,malicious,BLOCK,ALLOW,0,BLOCK,100,BLOCK,True,Invalid hour: 25,False,True,179.05330657958984,0.0
+malicious_27,malicious,BLOCK,ALLOW,0,BLOCK,100,BLOCK,True,Invalid hour: 25,False,True,196.8388557434082,0.0
+malicious_28,malicious,BLOCK,ALLOW,15,BLOCK,100,BLOCK,True,Extremely long browser string: 200 chars,False,True,189.68868255615234,0.0
+malicious_29,malicious,BLOCK,ALLOW,0,BLOCK,100,BLOCK,True,Invalid hour: 25,False,True,181.4281940460205,0.0

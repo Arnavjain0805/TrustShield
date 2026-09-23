@@ -1,0 +1,31 @@
+1. Total number of log entries: 404
+2. Number of ALLOW entries: 161
+3. Number of MFA entries: 121
+4. Number of BLOCK entries: 122
+5. Number of entries grouped by detection reason:
+   - invalid hour: 21
+   - malformed IP: 26
+   - injection-like pattern: 57
+   - repeated-character pattern: 121
+   - excessive whitespace: 121
+   - excessive string length: 18
+   - any other reason found: 0
+6. The first two representative entries for each severity:
+   ALLOW:
+     2026-09-08 10:32:52,973 - INFO - [ALLOW] Inputs passed robustness checks. (IP=192.168.1.1, Hour=14)
+     2026-09-16 11:00:32,070 - INFO - [ALLOW] Inputs passed robustness checks. (IP=192.168.1.29, Hour=14)
+   MFA:
+     2026-09-08 10:32:52,973 - INFO - [MFA] Moderately abnormal inputs detected: ['Repeated characters detected in device/browser', 'Excessive whitespace detected in device/browser']
+     2026-09-16 11:01:03,095 - INFO - [MFA] Moderately abnormal inputs detected: ['Repeated characters detected in device/browser', 'Excessive whitespace detected in device/browser']
+   BLOCK:
+     2026-09-08 10:32:52,974 - WARNING - [BLOCK] Suspicious inputs detected: ['Invalid hour: 25']
+     2026-09-08 10:32:52,974 - WARNING - [BLOCK] Suspicious inputs detected: ['Obvious injection pattern found in device string']
+7. Errors/Exceptions: None
+   Malformed entries: None
+   Duplicate-handler effects: None
+8. Date/time range covered: 2026-09-08 10:32:52,973 to 2026-09-16 11:02:32,084
+9. Sensitive Information: None detected (only synthetic inputs and test data logged).
+10. Consistency with evaluation_cases.csv:
+    - Defended Cases Count: ALLOW=40, MFA=30, BLOCK=30
+    - Logged Entries Count: ALLOW=161, MFA=121, BLOCK=122
+    Consistency: The logged counts are strictly greater than the evaluation cases count. This is consistent with a log file that appends across multiple harness executions and records two entries per case per execution (once in risk.py and once explicitly collected in the harness).

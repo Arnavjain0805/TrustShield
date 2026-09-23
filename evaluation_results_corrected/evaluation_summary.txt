@@ -1,0 +1,38 @@
+======================================
+      DEFENSE EVALUATION SUMMARY      
+======================================
+Total Test Cases: 100
+ - Clean: 40
+ - Suspicious: 30
+ - Malicious: 30
+
+--- BASELINE METRICS ---
+Exact Decision Accuracy: 40.00%
+Safe-Decision Rate: 79.00%
+False Accept Rate (FAR): 35.00%
+False Reject Rate (FRR): 0.00%
+Attack Detection Rate (ADR): 65.00%
+Attack Success Rate (ASR): 35.00%
+Decision Matrix:
+    - Clean      => ALLOW: 40, MFA: 0, BLOCK: 0
+    - Suspicious => ALLOW: 0, MFA: 0, BLOCK: 30
+    - Malicious  => ALLOW: 21, MFA: 9, BLOCK: 0
+
+--- DEFENDED METRICS ---
+Exact Decision Accuracy: 100.00%
+Safe-Decision Rate: 100.00%
+False Accept Rate (FAR): 0.00%
+False Reject Rate (FRR): 0.00%
+Attack Detection Rate (ADR): 100.00%
+Attack Success Rate (ASR): 0.00%
+Decision Matrix:
+    - Clean      => ALLOW: 40, MFA: 0, BLOCK: 0
+    - Suspicious => ALLOW: 0, MFA: 30, BLOCK: 0
+    - Malicious  => ALLOW: 0, MFA: 0, BLOCK: 30
+
+* Documented MFA Treatment:
+  - MFA counts as detected for suspicious/malicious cases because direct access is blocked.
+  - MFA counts as a false rejection for clean cases because successful completion is not simulated.
+  - Note: Logging an MFA result only means MFA was *requested*; it does not simulate or claim successful MFA authentication.
+
+* Disclaimer: Attack Success Rate (ASR) measures synthetic manipulated-input success, not general resistance to all adversarial or backdoor attacks.
